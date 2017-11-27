@@ -2,7 +2,7 @@
 Swoole-Live&amp;Barrage
 
 ## 简介
-参考自互联网的用例，使用了开源 **swoole** 扩展开发的**简易WEB视频直播**
+本项目基于 **websocket**协议，使用了开源 **swoole** 扩展开发的**简易WEB视频直播**
 
 ## 目录说明
 - **/php** 目录为 **swoole** 编写的文件
@@ -22,3 +22,7 @@ Swoole-Live&amp;Barrage
   - `php online.php`
 ## 客户端
 - 在主机也需要配置好 **web** 环境，切记不可直接双击 **html** 文件打开
+## 优化及改进
+- 视频的转码解码导致观看界面的视频模糊，想要更好的效果需要使用 **HLS** 及 **RTMP** 协议
+- 优化网页的美观度
+- 较新的浏览器已经逐渐使用 **MediaDevices.getUserMedia()** 取代 **navigator.getUserMedia()**
