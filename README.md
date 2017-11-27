@@ -10,7 +10,9 @@ Swoole-Live&amp;Barrage
   - **word.php** 为弹幕文件
   - **online.php** 为视频流处理文件
   - **func.php** 为自定义函数文件
-- **/html** 目录为 **swoole** 编写的文件 
+- **/html** 目录为静态页面文件
+- **css** 目录为样式文件
+- **js** 目录为 **JavaScript** 文件
 ## 服务端
 - 配置好 **swoole** 的 **Linux** 服务器，开发环境可以选择虚拟机本地服务器
 - [点此获得配置完整的虚拟机](https://pan.baidu.com/s/1qYQajW4)
